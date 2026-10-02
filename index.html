@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio Web</title>
+    <!--para los iconos de redes sociales-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <div class="perfil">
+          <div class="contenedorFoto">
+            <img src="./imagenes/foto3.jpg" alt="Sandra Chávez" class="foto" />
+          </div>
+          <div class="infor">
+            <h1>Luis Ramos</h1>
+            <p>Estudiante de Ingeniería de Sistemas</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="sobre-mi">
+      <div class="contenedor">
+        <h2>Sobre Mí</h2>
+        <p>
+          ¡Hola! Soy estudiante de primer ciclo de Ingeniería de Sistemas e Informática, apasionado por la tecnología, la lógica y el mundo de la computación.
+        </p>
+        <p>
+          Actualmente me encuentro construyendo bases sólidas en desarrollo web. Mi objetivo es aprender de manera constante, enfrentar retos técnicos y desarrollar soluciones digitales funcionales e innovadoras.
+        </p>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <div class="contenedor">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos-container">
+          <div class="proyecto">
+            <h3>TempTracker</h3>
+            <p>Aplicación web para consultar el clima en tiempo real de diferentes ciudades del mundo mediante el consumo de una API.</p>
+          </div>
+
+          <div class="proyecto">
+            <h3>Calculadora de Promedios en Python (o "Script de Gestión Académica")</h3>
+            <p>
+              Programa desarrollado en Python de consola que automatiza el cálculo de ponderados y gestiona notas universitarias aplicando lógica de programación.
+            </p>
+          </div>
+
+          <div class="proyecto">
+            <h3>Guía Interactiva de Ingeniería</h3>
+            <p>
+              Sitio web informativo diseñado para explorar y comparar las diferentes especialidades de la carrera (Ciberseguridad, Desarrollo Web, IA y Redes).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <div class="contenedor">
+        <h2>Habilidades</h2>
+        <div class="habilidades-lista">
+          <div class="habilidad">MIT App Inventor</div>
+          <div class="habilidad">Python Basic</div>
+          <div class="habilidad">CSS</div>
+          <div class="habilidad">JavaScript</div>
+
+          <div class="habilidad">GitHub</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="contenedor">
+        <h2>Contacto</h2>
+        <form>
+          <div class="form-group">
+            <input type="text" placeholder="Nombre" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Mensaje" rows="5" required></textarea>
+          </div>
+          <button onclick="pop_up('Mensaje enviado correctamante')">
+            Enviar Mensaje
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="contenedor">
+        <div class="enlaces">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>
+          &copy; 2026 Desarrollado por Luis Angel Ramos
+        </p>
+      </div>
+    </footer>
+    <script src="./codigo.js"></script>
+  </body>
+</html>
